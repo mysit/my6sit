@@ -1,4 +1,4 @@
-documet.addEventListener('DOMContentLoaded',function){
+documet.addEventListener('DOMContentLoaded',function()){
 
 const basePrices = {
             basic: 1000,
@@ -97,3 +97,4 @@ const basePrices = {
         updateFormVisibility();
         calculatePrice();
 });
+
