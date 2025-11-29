@@ -1,5 +1,6 @@
-// Базовая стоимость для каждого типа услуги
-        const basePrices = {
+documet.addEventListener('DOMContentLoaded',function){
+
+const basePrices = {
             basic: 1000,
             premium: 2000,
             custom: 1500
@@ -95,3 +96,4 @@
         // Инициализация калькулятора
         updateFormVisibility();
         calculatePrice();
+});
